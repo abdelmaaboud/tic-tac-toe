@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Comic Sans MS', Helvetica, sans-serif;
+}
+table{
+	width:480px;
+	margin-left:auto; 
+   margin-right:auto; 
+	margin-top: 50px;
+}
+td{
+	width: 125px;
+	height: 120px;
+	border: 2px solid #cccccc;
+	border-radius: 15px;
+ 
+}
+
+#players {
+  margin-left:auto; 
+  margin-right:auto;
+  padding: 20px 10px 10px 10px;
+  width: 511px; 
+  text-align: left;
+}
+#players > div {
+  display: inline-block;
+  padding-right: 25px;
+ 
+  width:160px;
+}
+#O{
+   color: #cccccc ;
+}
+#X{
+  color:black;
+}
+tr  div{
+  width: 150px;
+	height: 125px;
+	 text-align: center;
+  font-size: 100px;
+  padding-bottom: 25px;
+	border-radius: 15px;
+  
+}
