@@ -4,6 +4,7 @@
 	<title>
 		Tic Tac Toe
 	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css" type="text/css">
 <script   src="jquery-2.2.0.js"></script>
 <script  type="text/javascript" src="jq.js"></script>
@@ -13,8 +14,14 @@
 	<div id="players">
     <div id="X" class="players">Player X : <span id="sx">0</span></div>
     <div id="O" class="players">Player O : <span id="so">0</span></div>
- <!--   <input type="button" class="button" value="New Game"> -->
-</div>
+	
+	</div>
+	<div id="choice">
+    <div id="one" class="choices"> One player </div>
+    <div id="two" class="choices">Two players </div>
+	
+	</div>
+	<div id="result"><span id="textresult">O is the winner</span><span id="buttres">play Again</span></div>
 	<table>
 		<tr>
 			<td ><div class="text" id="1"></div></td>

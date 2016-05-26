@@ -8,21 +8,40 @@ table{
 	margin-left:auto; 
    margin-right:auto; 
 	margin-top: 50px;
+visibility: hidden;
+}
+.selectedplayer{
+  transform: scale(1.5);
+   color:black;
 }
 td{
 	width: 125px;
 	height: 120px;
 	border: 2px solid #cccccc;
 	border-radius: 15px;
- 
-}
 
-#players {
+}
+.over{
+  border: 2px solid #b30000;
+}
+.selected{
+  border: 2px solid #000080;
+}
+.button{
+   display: inline-block;
+   padding-right: 25px;
+   float: left;
+}
+#players, #choice,#result {
   margin-left:auto; 
   margin-right:auto;
   padding: 20px 10px 10px 10px;
-  width: 511px; 
+  width:400px; 
   text-align: left;
+  
+}
+#players{
+  color: #cccccc  ;
 }
 #players > div {
   display: inline-block;
@@ -30,12 +49,27 @@ td{
  
   width:160px;
 }
-#O{
-   color: #cccccc ;
+#choice > div ,#result > span{
+  display: inline-block;
+  padding-right: 25px;
+   width:120px;
+   padding: 20px;
+   border: 2px solid #800000;
+   margin-left:10px; 
+   margin-right:10px;
+   font-size:15px;
+   border-radius: 15px;
+    
 }
-#X{
-  color:black;
+.choices:hover { 
+    background-color: #ffffcc;
+ transform: scale(1.2);
 }
+#buttres:hover{ 
+    background-color: #ffffcc;
+ transform: scale(1.2);
+}
+
 tr  div{
   width: 150px;
 	height: 125px;
